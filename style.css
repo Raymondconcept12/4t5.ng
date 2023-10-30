@@ -455,20 +455,9 @@ body{
         /* header */
         .header-section{
              background-color: #ffffff;
+             height: 90px;
              position: fixed;
-             max-width: 797px;
-             padding: 20px 20;
-             padding-right: 980px;
-             /* top: 0; */
-             margin-top: 0.8rem;
-             z-index: 999;
-             transition: .3s linear;
-             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        
-             /* height: 90px;
-             position: fixed;
-             margin-top: 200;
-             max-width: 3000px */
+             max-width: 3000px 
              /* border-bottom-left-radius: 50px;
              border-bottom-right-radius: 50px ; */
         }
@@ -618,6 +607,7 @@ body{
     max-height: 100vh;
     text-align: center;
     margin-bottom: 200px;
+    margin-top: 130px;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
