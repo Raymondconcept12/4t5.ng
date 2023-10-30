@@ -56,7 +56,7 @@ body{
 
 .nav-menu ul li a{
     text-decoration: none;
-    color: #000E8F;
+    color: rgb(0, 0, 0);
     font-size: 17px;
     font-weight: bold;
     font-style: normal;
@@ -64,7 +64,7 @@ body{
 }
 
 .nav-menu ul li a:hover{
-    color: yellow;
+    color: orangered;
     font-size: 19px;
 }
 
@@ -73,7 +73,7 @@ body{
 
 .about-section{
     background-color: white;
-    height: 500px;
+    height: 300px;
     padding-top: 5px;
     
 }
@@ -81,15 +81,16 @@ body{
 .about-header h2{
     text-align: center;
     font-size: 30px;
-    font-family: fantasy;
-    color: #000E8F;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: orangered;
 }
 
 .about p{
     font-family: sans-serif;
     font-size: 20px;
     margin-right: 30px;
-    margin-top: 120px;
+    margin-top: 100px;
     font-weight: 400;
     color: #000000;
 }
@@ -104,11 +105,35 @@ body{
     
 }
 
+.about-btn{
+    margin-top: 20px;
+}
+
+.about-btn button{
+    padding: 15px 20px;
+    border-radius: 300px;
+    border: none;
+    background-color: orangered;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+.about-btn button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.about-btn button a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 
  /*footer section */
 
- .footer-section{
-    background-color: #0e0d0d;
+.footer-section{
+    background-color: rgb(19, 18, 18);
 }
 
 .footer-details{
@@ -125,6 +150,7 @@ body{
 .image p{
     margin-top: -50px;
     font-size: 17px;
+    margin-right: 20px;
 }
 
 .quic-lin{
@@ -132,13 +158,17 @@ body{
     color: wheat;
 }
 
+.quic-lin h2{
+    color: orangered;
+}
+
 .quic-lin li{
     list-style: none;
-    gap: 5px;
-
+    margin-top: 15px;
 }
 
 .quic-lin li a {
+    gap: 5px;
     text-decoration: none;
     color: white;
 }
@@ -149,28 +179,27 @@ body{
     margin-left: 35px;
 }
 
-
-
-@media screen  and (max-width: 980px) 
+@media screen  and (max-width: 420px) 
 {
 
+    html, body{
+        max-width: 100%;
+        overflow: hidden;
+    }
 
-body{
+ body{
     margin: 0;
     font-family: Arial;
 
     /* background-color: #000E8F; */
-}
+} 
 
 
 /* header */
 .header-section{
      background-color: #ffffff;
-     height: 80px;
+     height: 85px;
      position: fixed;
-     max-width: 3000px 
-     /* border-bottom-left-radius: 50px;
-     border-bottom-right-radius: 50px ; */
 }
 
 
@@ -184,27 +213,15 @@ padding:0;
 box-sizing:border-box;
 }
 
-body{
-
-line-height:1.4;
-}
 
 
-
-.showcase{
-background-color:rgba(228, 212, 74, 0.45);
-color: rgb(20, 15, 15);
-height: 100vh;
-position: relative;
-width: 100%;
-}
 
 
 
 .menu-wrap .toggler{
 position: absolute;
 top: 20px;
-left: 280px;
+left: 290px;
 cursor: pointer;
 z-index: 2;
 width: 50px;
@@ -215,12 +232,12 @@ opacity: 0;
 .menu-wrap .hamburger{
 position: absolute;
 top: 20px;
-left: 280px;
+left: 290px;
 z-index: 1;
 padding: 1rem;
 width: 60px;
 height: 60px;
-background-color:rgba(228, 29, 29, 0);
+background-color:rgba(0, 0, 0, 0);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -233,8 +250,8 @@ border-radius: 3px;
 .menu-wrap .hamburger > div{
 position: relative;
 width: 100%;
-height: 3px;
-background-color: rgb(12, 12, 12);
+height: 4px;
+background-color: rgb(0, 0, 0);
 transition: transform 0.4s ease;
 }
 /*Hamburger top and bottom line*/
@@ -244,7 +261,7 @@ content: "";
 position: absolute;
 top: -10px;
 width: 100%;
-height: 3px;
+height: 4px;
 background-color: inherit;
 }
 /*moves line down*/
@@ -298,7 +315,7 @@ justify-content: center;
 }
 
 .menu-wrap .menu>div{
-background-color: rgba(255, 255, 255, 0.74);
+background-color: orange;
 width: 200vw;
 height: 200vw;
 overflow: hidden;
@@ -318,21 +335,21 @@ max-width: 90vw;
 max-height: 100vh;
 text-align: center;
 margin-bottom: 200px;
-margin-top: 100px;
+margin-top: 150px;
 opacity: 0;
 transition: opacity 0.4s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li{
 list-style: none;
-font-size: 1.5rem;
+font-size: 1.8rem;
 text-align: center;
 padding: 1rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a{
 text-decoration: none;
-text-align: center;
+text-align: start;
 color: #000000;
 transition: color 0.4s ease;
 font-family: Arial, Helvetica, sans-serif;
@@ -347,11 +364,13 @@ display: flex;
 
 
 
-/* about section */
+
+
+ /* about section */
         
-.about-section{
+ .about-section{
     background-color: white;
-    height: 1200px;
+    height: 620px;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
@@ -359,10 +378,10 @@ display: flex;
 
 .about-header h2{
     text-align: center;
-    font-size: 35px;
-    margin-top: 100px;
-    font-family: fantasy;
-    color: #000E8F;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: orangered;
 }
 
 .about p{
@@ -370,34 +389,55 @@ display: flex;
     font-size: 20px;
     margin-left: 30px;
     margin-right: 6px;
-    margin-top: 50px;
+    margin-top: 23%;
     font-weight: 400;
     color: #000000;
 }
 
 .about-image{
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: -70px;
 }
 
 .about-image img{
-    text-align: center;
-
-    
+    margin-top: 70px;
 }
 
+.about-btn button{
+    padding: 15px 20px;
+    border-radius: 300px;
+    margin-left: 30px;
+    border: none;
+    background-color: orangered;
+    font-family: sans-serif;
+    transition: 0.3s;
+    margin-top: 20px;
+}
 
- /*footer section */
+.about-btn button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.about-btn button a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*footer section */
         
- .footer-section{
+.footer-section{
     background-color: #111010;
 }
 
 .footer-header h2{
     text-align: center;
-    font-family: fantasy;
+    font-family: sans-serif;
     font-size: 35px;
     margin-bottom: 12px;
-    color:#000E8F;
+    color:orangered;
 }
 
 .footer-details{
@@ -435,7 +475,7 @@ display: flex;
 
 .contact-details{
     margin-top: 60px;
-    color: wheat;
+    color: orangered;
     margin-left: 35px;
 }
 
@@ -458,5 +498,11 @@ display: flex;
     display: none;
   }
 
+}
 
-  }
+
+@media screen and (max-width: 600px)  {
+
+}
+
+
