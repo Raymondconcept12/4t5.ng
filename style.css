@@ -488,15 +488,10 @@ body{
        @media screen  and (max-width: 420px) 
         {
         
-            html, body{
-                
-                margin: 0px;
-    padding: 0px;
-                max-width: 100%;
-                
-            }
+            
 
          body{
+             overflow: hidden;
             margin: 0;
             font-family: Arial;
 
