@@ -72,8 +72,8 @@ body{
 /* about div */
 
 .about-div{
-    background-color: white;
-    height: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
     padding-top: 5px;
     
 }
@@ -89,44 +89,20 @@ body{
 .about p{
     font-family: sans-serif;
     font-size: 20px;
-    margin-right: 30px;
-    margin-top: 100px;
+    /* margin-right: 30px; */
+    margin-top: 70px;
     font-weight: 400;
     color: #000000;
 }
 
 .about-image{
     float: left;
-   margin-right: 30px;
+   margin-right: auto;
 }
 
 .about-image img{
-    margin-left: 40px; 
+    margin-right: auto; 
     
-}
-
-.about-btn{
-    margin-top: 20px;
-}
-
-.about-btn button{
-    padding: 15px 20px;
-    border-radius: 300px;
-    border: none;
-    background-color: orangered;
-    font-family: sans-serif;
-    transition: 0.3s;
-}
-
-.about-btn button a{
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-
-.about-btn button a:hover{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
 }
 
 
@@ -173,13 +149,35 @@ body{
     color: white;
 }
 
+.quic-lin li a:hover {
+    gap: 5px;
+    text-decoration: none;
+    color: orangered;
+}
+
 .contact-details{
     margin-top: 60px;
     color: wheat;
     margin-left: 35px;
 }
 
-@media screen  and (max-width: 420px) 
+.goTop {
+    position: fixed;
+    z-index: 999;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    display: none;
+  }
+
+@media screen  and (max-width: 960px) 
 {
 
    
@@ -197,6 +195,7 @@ body{
      background-color: #ffffff;
      height: 85px;
      position: fixed;
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.575);
 }
 
 
@@ -367,8 +366,8 @@ display: flex;
         
  .about-div{
     background-color: white;
-    height: 950px;
-    padding-top: 5px;
+    height: 1080px;
+    max-width: 100%;
     /* display: flex;
     flex-direction: column; */
 }
@@ -376,29 +375,29 @@ display: flex;
 .about-header h2{
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 100px;
     font-family: sans-serif;
     color: orangered;
 }
 
 .about p{
     font-family: sans-serif;
-            font-size: 20px;
-            margin-left: 30px;
-            margin-right: 6px;
-            margin-top: 463px;
-            font-weight: 400;
-            color: #000000;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 6px;
+    margin-top: 463px;
+    font-weight: 400;
+    color: #000000;
 }
 
 .about-image{
-    display: flex;
-    flex-direction: column;
-    margin: -70px;
+    
+    margin: -80px;
 }
 
 .about-image img{
-    margin-top: 70px;
+    margin-top: 85px;
+    margin-left: 20px;
 }
 
 .about-btn button{
