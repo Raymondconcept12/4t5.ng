@@ -12,7 +12,7 @@ body{
 
 
 /* header */
-.header-section{
+.header-div{
 
     background-color: #ffffff;  
       background-color: #ffffff;
@@ -69,9 +69,9 @@ body{
 }
 
 
-/* about section */
+/* about div */
 
-.about-section{
+.about-div{
     background-color: white;
     height: 300px;
     padding-top: 5px;
@@ -130,9 +130,9 @@ body{
 }
 
 
- /*footer section */
+ /*footer div */
 
-.footer-section{
+.footer-div{
     background-color: rgb(19, 18, 18);
 }
 
@@ -182,10 +182,7 @@ body{
 @media screen  and (max-width: 420px) 
 {
 
-    html, body{
-        max-width: 100%;
-        
-    }
+   
 
  body{
     margin: 0;
@@ -196,7 +193,7 @@ body{
 
 
 /* header */
-.header-section{
+.header-div{
      background-color: #ffffff;
      height: 85px;
      position: fixed;
@@ -366,14 +363,14 @@ display: flex;
 
 
 
- /* about section */
+ /* about div */
         
- .about-section{
+ .about-div{
     background-color: white;
-    height: 620px;
+    height: 950px;
     padding-top: 5px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .about-header h2{
@@ -386,12 +383,12 @@ display: flex;
 
 .about p{
     font-family: sans-serif;
-    font-size: 20px;
-    margin-left: 30px;
-    margin-right: 6px;
-    margin-top: 23%;
-    font-weight: 400;
-    color: #000000;
+            font-size: 20px;
+            margin-left: 30px;
+            margin-right: 6px;
+            margin-top: 463px;
+            font-weight: 400;
+            color: #000000;
 }
 
 .about-image{
@@ -426,9 +423,9 @@ display: flex;
     color: rgb(0, 0, 0);
 }
 
-/*footer section */
+/*footer div */
         
-.footer-section{
+.footer-div{
     background-color: #111010;
 }
 
