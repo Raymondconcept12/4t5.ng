@@ -6,18 +6,18 @@
 
 body{
     margin: 0;
+    width: auto;
+    height: 0;
     font-family: Arial;
     /* background-color: #000E8F; */
 }
 
 
 /* header */
-.header-section{
-
-    background-color: #ffffff;  
+.header-div{
       background-color: #ffffff;
      height: 80px;
-     width: 1200px;
+     width: 1000px;
      margin-top: 200; 
      /* border-bottom-left-radius: 50px;
      border-bottom-right-radius: 50px ; */
@@ -68,17 +68,17 @@ body{
     font-size: 19px;
 }
 
-/* welcome section */
+/* welcome div */
 
-.welcome-section{
+.welcome-div{
     background: linear-gradient( #ffa600d8 50%, #ffa600d8 50%), url(Image/welcome-image.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
     padding-top: 10px;
     height: 500px;
-    border-bottom-left-radius: 90px;
-     border-bottom-right-radius: 90px ;
+    border-bottom-left-radius: 60px;
+     border-bottom-right-radius: 60px ;
     
 }
 
@@ -137,9 +137,9 @@ body{
     transform: scale(90%);
 }
 
-/* about section */
+/* about div */
 
-.about-section{
+.about-div{
     background-color: white;
     height: 300px;
     padding-top: 5px;
@@ -197,9 +197,9 @@ body{
     color: rgb(0, 0, 0);
 }
 
-    /* service section */
+    /* service div */
 
-.service-section{
+.service-div{
     background: linear-gradient(rgba(255, 166, 0, 0.904) 50%, rgba(255, 166, 0, 0.904) 50%), url(Image/Mobile-Internet-Nigeria.jpg);
     /* background-image:  url(Image/Mobile-Internet-Nigeria.jpg); */
     background-repeat: no-repeat;
@@ -342,9 +342,9 @@ body{
     text-align: center;
 }
 
-  /* Services-section */
+  /* Services-div */
 
-  .Services-section{
+  .Services-div{
     height: 480px;
     align-items: center;
    align-self: center;
@@ -432,9 +432,9 @@ body{
     margin-top: -5px;
 }
 
-  /*footer section */
+  /*footer div */
 
-.footer-section{
+.footer-div{
     background-color: rgb(19, 18, 18);
 }
 
@@ -477,7 +477,7 @@ body{
 
 .contact-details{
     margin-top: 60px;
-    color: wheat;
+    color: orangered;
     margin-left: 35px;
 }
 
@@ -487,43 +487,39 @@ body{
 
        @media screen  and (max-width: 420px) 
         {
+
+
+            html,
+body {
+    width: auto;
+  scroll-behavior: smooth;
+ 
+}
+            
+                
         
             
-
-         body{
-             height: 100vh;
-             width: auto;
-            margin: 0;
-            font-family: Arial;
-
+            body{
+                margin: 0;
+                width: auto;
+                height: auto;
+                font-family: Arial;
+                overflow: auto;
+             display: block;
             /* background-color: #000E8F; */
         } 
         
         
-        /* header */
-        .header-section{
-             background-color: #ffffff;
-             height: 85px;
-             position: fixed;
-        }
         
-        
-
+ 
 
         @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
 
 
 
 
-
-
-.menu-wrap .toggler{
+ .menu-wrap .toggler{
     position: absolute;
     top: 20px;
     left: 290px;
@@ -542,7 +538,6 @@ body{
     padding: 1rem;
     width: 60px;
     height: 60px;
-    background-color:rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -649,7 +644,7 @@ body{
     list-style: none;
     font-size: 1.8rem;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem; 
 }
 
 .menu-wrap .menu > div > div > ul > li > a{
@@ -666,23 +661,50 @@ body{
 }
 
 
+     /* header */
+.header-div{
 
+
+      background-color: #ffffff;
+     height: 90px;
+     max-width: 100%;
+     margin-top: 200; 
+     /* border-bottom-left-radius: 50px;
+     border-bottom-right-radius: 50px ; */
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu{
+    display: none;
+}
+
+.logo{
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.menu-wrap{
+    display: inline;
+}
 
 
     
         
      
         
-        /* welcome section */
+        /* welcome div */
         
-        .welcome-section{
+        .welcome-div{
             background: linear-gradient( #ffa600d8 50%, #ffa600d8 50%), url(Image/welcome-image.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 700px;
-            border-bottom-left-radius: 90px;
-            border-bottom-right-radius: 90px ;
+            height: 680px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px ;
             
         }
         
@@ -690,7 +712,7 @@ body{
             color: rgb(0, 0, 0);
             font-size: 50px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-            margin-left: 0;
+            margin-left: auto;
             text-align: center;
             transition: 0.3s;
             margin-top: 150px;
@@ -747,20 +769,20 @@ body{
             transform: scale(90%);
         }
         
-        /* about section */
+        /* about div */
         
-        .about-section{
+        .about-div{
             background-color: white;
-            height: 620px;
+            height: 670px;
             padding-top: 5px;
-            display: flex;
-            flex-direction: column;
+            /* display: flex;
+            flex-direction: column; */
         }
         
         .about-header h2{
             text-align: center;
             font-size: 30px;
-            margin-top: 20px;
+            margin-top: 60px;
             font-family: sans-serif;
             color: orangered;
         }
@@ -770,7 +792,7 @@ body{
             font-size: 20px;
             margin-left: 30px;
             margin-right: 6px;
-            margin-top: 23%;
+            margin-top: 463px;
             font-weight: 400;
             color: #000000;
         }
@@ -807,9 +829,9 @@ body{
             color: rgb(0, 0, 0);
         }
         
-            /* service section */
+            /* service div */
         
-        .service-section{
+        .service-div{
             background: linear-gradient(rgba(255, 166, 0, 0.904) 50%, rgba(255, 166, 0, 0.904) 50%), url(Image/Mobile-Internet-Nigeria.jpg);
             /* background-image: url(Image/Mobile-Internet-Nigeria.jpg); */
             background-position: bottom;
@@ -960,8 +982,8 @@ body{
             text-align: center;
         }
         
-          /* Services-section */
-          .Services-section{
+          /* Services-div */
+          .Services-div{
             height: 1100px;
             align-items: center;
             align-self: center;
@@ -980,13 +1002,12 @@ body{
         .services-site{
             display: flex;
             flex-direction: column;
-            max-width: 100%;
             align-items: center;
         }
         
 
         .service-site2{
-            display: flexbox;
+            display: flex;
             flex-direction: column;
             align-items: center;
         }
@@ -996,9 +1017,10 @@ body{
             box-sizing: content-box;
             background-color: rgba(255, 255, 255, 0.973);
             text-align: center;
-            /* margin-left: -75px; */
+            margin-left: -80px;
             max-width: 85%;
             max-height: 250%;
+            border-radius: 25px;
             transition: 0.5s;
             box-shadow: 1px 1px 8px #000000a6;
         }
@@ -1007,9 +1029,10 @@ body{
             box-sizing: content-box;
             background-color: rgba(255, 255, 255, 0.973);
             text-align: center;
-            /* margin-left: -75px; */
+            margin-left: -80px;
             max-width: 85%;
-            max-height: -250%;
+            max-height: 250%;
+            border-radius: 25px;
             transition: 0.5s;
             box-shadow: 1px 1px 8px #000000a6;
         }
@@ -1035,9 +1058,9 @@ body{
         }
         
         
-          /*footer section */
+          /*footer div */
         
-        .footer-section{
+        .footer-div{
             background-color: #111010;
         }
         
@@ -1098,7 +1121,7 @@ body{
             right: 40px;
             width: 40px;
             height: 40px;
-            background-color: #000E8F;
+            background-color: orangered;
             border: none;
             border-radius: 6px;
             cursor: pointer;
@@ -1110,8 +1133,5 @@ body{
        }
 
 
-       @media screen and (max-width: 600px)  {
-        
-       }
-
+      
  
