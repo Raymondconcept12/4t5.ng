@@ -254,6 +254,28 @@ body{
     display: none;
   }
 
+  .line{
+    background-color: rgb(255, 255, 255);
+    height: 1.5px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .end {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
 @media screen  and (max-width: 960px) 
 {
 
