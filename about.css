@@ -138,7 +138,7 @@ body{
 }
 
 .quic-lin h2{
-    color: orangered;
+    color: orange;
 }
 
 .quic-lin li{
@@ -160,8 +160,82 @@ body{
 
 .contact-details{
     margin-top: 60px;
-    color: wheat;
+    color: orange;
     margin-left: 35px;
+}
+
+.social-media{
+    margin-top: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.fa-user {
+    font-size: 20px;
+    color: orange;
+}
+.fa-user span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-user span:hover{
+    color: orangered;
+}
+
+
+
+.fa-globe {
+    font-size: 20px;
+    color: orange;
+}
+.fa-globe span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-globe span:hover{
+    color: orangered;
+}
+
+
+.fa-envelope {
+    font-size: 20px;
+    color: orange;
+}
+.fa-envelope span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-envelope span:hover{
+    color: orangered;
+}
+
+
+
+.fa-instagram {
+    font-size: 20px;
+    color: orange;
+}
+.fa-instagram a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram a:hover{
+    color: orangered;
 }
 
 .goTop {
@@ -359,6 +433,18 @@ font-weight: bold;
 display: flex;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu{
+    display: none;
+}
+
+
+.menu-wrap{
+    display: inline;
+}
 
 .logo{
     margin-left: 35px;
@@ -464,7 +550,7 @@ display: flex;
 
 .quic-lin{
     margin-top: 60px;
-    color: wheat;
+    color: orange;
     margin-left: 50px;
 }
 
@@ -481,8 +567,82 @@ display: flex;
 
 .contact-details{
     margin-top: 60px;
+    color: orange;
+    margin-left: 50px;
+}
+
+.social-media{
+    margin-top: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.fa-user {
+    font-size: 20px;
+    color: orange;
+}
+.fa-user span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-user span:hover{
     color: orangered;
-    margin-left: 35px;
+}
+
+
+
+.fa-globe {
+    font-size: 20px;
+    color: orange;
+}
+.fa-globe span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-globe span:hover{
+    color: orangered;
+}
+
+
+.fa-envelope {
+    font-size: 20px;
+    color: orange;
+}
+.fa-envelope span {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+.fa-envelope span:hover{
+    color: orangered;
+}
+
+
+
+.fa-instagram {
+    font-size: 20px;
+    color: orange;
+}
+.fa-instagram a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram a:hover{
+    color: orangered;
 }
 
 
