@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,135 +11,124 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/letter-magic" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
     <link rel="icon" href="Image/Logo.JPG">
     <link rel="stylesheet" href="style.css">
     <title> 4T5 | Easy Payment, Stress Free </title>
 </head>
 <body>
-    <!-- Header -->
 
-    <div class="header-div">
-        <nav class="navbar">
+    <!-- Navigation bar -->
+
+    <section class="navb">
+        
+        <nav>
+
+            <input type="checkbox" name="" id="checkbox">
+
+                <label for="checkbox">
+                     <i onclick="change()" class="fa fa-bars"></i>
+                </label>
+
 
             <div class="logo">
-                <img src="Image/Orange-black logo .PNG" alt="site logo" width="80px" height="80px">
+                <h2>4t5</h2>
             </div>
 
-            <div id="myLink" class="nav-menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="#service">Service</a></li>
-                    <li><a href="">Register</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-
-                
-            </div>
-
-            <!-- mobile hamburger -->
-
-            <!-- <div class="ham-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> -->
-
-
-
-            <div class="menu-wrap">
-                <input type="checkbox" class="toggler">
-                <div class="hamburger"><div></div></div>
-                <div class="menu">
-                  <div>
-                    <div>
-                      <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="About.html">About</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="">Register</a></li>
-                        <li><a href="">Login</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+             <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="app/signup.php">Register</a></li>
+                <li><a href="app/index.php">login</a></li>
+                <li><a href="#contact">contact</a></li>
+             </ul>
         </nav>
-    </div>
+    </section>
 
 
-<!-- welcome div  -->
+      <!-- Welcome section -->
 
-    <div class="welcome-div">
-        
-        <!-- <div class="welcome-image">
-            <img src="Image/welcome_girl-removebg-preview.png" alt="" width="480px" height="480px">
-        </div> -->
+      <section class="welcome">
 
-        <div class="welcome-text">
-            <h2>WELCOME TO <br>4T5</h2>
-            <p>Here at 4T5, we offer you the  cheapest and 
-                affordable data  plan, airtime, Dstv, Gotv and Startimes subscription.</p>
+          <!-- <div class="welcome-image">
+              <img src="Image/welcome image.png" alt="" width="350px" height="300px">
+          </div> -->
+          
+          <div class="welcome-text">
+              <h2>WELCOME TO 4T5</h2>
+              <p>Here at 4T5, we offer you the  cheapest and 
+                affordable data  plan,  airtime, Dstv, Gotv and  Startimes subscription.</p>
+            </div>
+
+            <div class="welcome-button">
+                <button><a href="app/signup.php">Register</a></button>
+                <button style="background-color: rgb(255, 255, 255); "><a style="color: black;" href="app/index.php">Login</a></button>
+            </div>
+            
+
+      </section>
+
+
+      <!-- ABOUT -->
+
+      <section class="about">
+      
+        <div class="about-header">
+            <h2>ABOUT US</h2>
+
+            <div class="underline"></div>
         </div>
-
-        <div class="welcome-button">
-            <button><a href="">Register</a></button>
-            <button style="background-color: rgb(255, 255, 255); "><a style="color: black;" href="">Login</a></button>
-        </div>
-
-    </div>
-
-
- <!-- About div -->
-
- <div class="about-div">
-    <div class="about-header">
-        <h2>ABOUT US</h2>
-    </div>
-
-    <div class="about-image">
-        <img src="Image/welcome_girl-removebg-preview.png" alt="happy girl" height="410px" width="410px">
-    </div>
-
-    <div class="about">
-        <p> 4T5 is a web and mobile platform where users can buy 
-            internet data bundles, VTU Airtime, Pay Eletricity Bills, TV Subscription.
-        </p>
-
-
-        <p style="margin-top: 25px;">We have designed our website to accommodate user needs, Providing users of our platform
-            the opportunity to save cost, make fast, secured, efficient an rewarding purchases and bill payments.
-
-        </p>
-</div>
-
-        <div class="about-btn">
-            <button><a href="About.html">Read More</a></button>
-        </div>
-
-    </div>
     
+        <div class="about-image">
+            <img src="Image/welcome_girl-removebg-preview.png" alt="happy girl" height="410px" width="410px">
+        </div>
+    
+        <div class="about-text">
+            <p> 4T5 is a web and mobile platform where users can buy 
+                internet data bundles, VTU Airtime, Pay Eletricity Bills, TV Subscription.
+            </p>
+    
+    
+            <p style="margin-top: 25px;">We have designed our website to accommodate user needs, Providing users of our platform
+                the opportunity to save cost, make fast, secured, efficient an rewarding purchases and bill payments.
+    
+            </p>
+    
+            <p style="margin-top: 25px;"> Our internet/mobile data plans work with all devices including
+                Andriod, Iphone, Computers, Modems e.t.c. Data can be rollover if you re-subscribe before
+                expiry date of current plan.
+            </p>
 
-    <!-- services div -->
+      </section>
 
-    <div class="service-div">
-        <div class="service-header">
+
+      <!-- WHY CHOOSE US -->
+
+      <section class="whyus">
+
+        <div class="whyus-header">
             <h2>WHY CHOOSE US?</h2>
 
             <div class="underline"></div>
         </div>
 
-        <div class="service-details">
-                <p> Amazing features that makes 4T5 stand out from other vendors
+        <div class="whyus-details">
+                <p> Amazing features that makes 4T5 stand <br> out from other vendors
                 </p>
         </div>
 
         <div class="site-details">
+
             <div class="Automation">
-                <img src="Image/automation.png" alt="automation" height="75px" width="75px"> 
+                <img src="Image/automat.png" alt="automation" height="80px" width="70px"> 
 
                 <h2>Automation</h2>
 
@@ -150,7 +138,7 @@
             </div>
 
             <div class="user-support">
-                <img src="Image/user support.png" alt="user support" height="75px" width="75px"> 
+                <img src="Image/user.png" alt="user support" height="80px" width="80px"> 
 
                 <h2>User Support</h2>
 
@@ -160,23 +148,17 @@
             </div>
 
             <div class="e-wallet">
-                <img src="Image/ewallet.png" alt="e-wallet" height="80px" width="80px"> 
+                <img src="Image/eewallet.png" alt="e-wallet" height="80px" width="80px"> 
 
                 <h2>E-Wallet</h2>
 
                 <p>In assurance to give you the best treat, all our services and transactions are running 
                     on an automated system. Without any delay in delivery...
         </p>
-    </div>
+            </div>
 
-    
-</div>
-
-
-
-        <div class="site-details">
             <div class="Automation">
-                <img src="Image/cconv.png" alt="Convenience" height="75px" width="75px"> 
+                <img src="Image/convinence.png" alt="Convenience" height="75px" width="75px"> 
 
                 <h2>Convenience</h2>
 
@@ -185,7 +167,7 @@
             </div>
 
             <div class="user-support">
-                <img src="Image/payment.png" alt="Flexible" height="75px" width="75px"> 
+                <img src="Image/flexiblepay.png" alt="Flexible" height="75px" width="75px"> 
 
                 <h2>Flexible Payment</h2>
 
@@ -195,7 +177,7 @@
             </div>
 
             <div class="e-wallet">
-                <img src="Image/transaction.png" alt="transactions" height="75px" width="75px"> 
+                <img src="Image/trh.png" alt="transactions" height="75px" width="75px"> 
 
                 <h2>Transaction History</h2>
 
@@ -203,21 +185,24 @@
                 </p>
             </div>
 
-        </div>
+     </div>
 
-</div>
+      </section>
 
 
-<!-- Services div -->
+       <!-- SERVICES -->
 
-    <div id="service" class="Services-div">
+       <section class="services">
+
         <div class="Services-header">
             <h2>OUR SERVICES</h2>
+
+            <div class="underline"></div>
         </div>
 
-        <div class="stt">
 
         <div class="services-site">
+            
             <div class="airtime">
                 <img src="Image/orange-airtime.png" alt="airtime" height="40px" width="40px">
 
@@ -242,11 +227,7 @@
                 <p> Cable TV Subscription <br> (DSTV, GOTV, STARTIMES)</p>
             </div>
 
-     </div>
-
-
-     <div class="service-site2">
-
+    
             <div class="airtim">
                 <img src="Image/orange-ele.jfif" alt="bill" height="40px" width="40px">
 
@@ -274,70 +255,70 @@
 
         </div> 
 
-      </div> 
+       </section>
 
 
-    </div>
+         <!-- FOOTER -->
 
-  <!-- footer div -->
 
-  <div id="contact" class="footer-div">
+            <section class="footer">
 
-    <div class="footer-details">
+                <div class="footer-details">
 
-        <div class="image">
-            <img src="Image/Orange-white logo.PNG" alt="site logo" height="150px" width="150px">
+                    <div class="image">
+                        
+                        <h2> 4t5 </h2>
 
-            <p>Say goodbye to missed deadlines and complicated processes. Join <br> thousands of 
-                satisfied customers who trust 4T5 for their data, <br> airtime, eletricity
-                and cable TV bill payments.
-            </p>
 
+                        <p>Say goodbye to missed deadlines and complicated processes. Join thousands of 
+                            satisfied customers who trust 4T5 for their data, airtime, eletricity
+                            and cable TV bill payments.
+                        </p>
             
-        </div>
-
-
-        <div class="quic-lin">
-            <h2>Quick Link
-            </h2>
-
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="">Register</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="#contact">Contact</a></li>
-        
-        </div>
-
-
-        <div class="contact-details">
+                        
+                    </div>
             
-            <h2>Contact</h2>
             
-        <div class="social-media">
-
-            <i class="fa fa-user"> <span>4T5 NG</span></i>
-            <i class="fa fa-globe"> <span> DELTA STATE, NIGERIA </span></i>
-            <i class="fa fa-envelope"> <span> info.4t5ng@gmail.com</span></i>
-            <i class="fa fa-instagram"> <a href="http://instagram.com/4t5.ng">4T5.NG</a></i>
-
-        </div>
-
-        </div>
+                    <div class="quic-lin">
+                        <h2>Quick Link
+                        </h2>
+            
+                        <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="app/signup.php">Register</a></li>
+                <li><a href="app/index.php">Login</a></li>
+                <li><a href="#contact">Contact</a></li>
+                    
+                    </div>
+            
+            
+                    <div class="contact-details">
+                        
+                        <h2>Contact</h2>
+                        
+                    <div class="social-media">
+            
+                        <i class="fa fa-user"> <span> 4T5 NG</span></i>
+                        <i class="fa fa-globe"> <span> DELTA STATE, NIGERIA </span></i>
+                        <i class="fa fa-envelope"> <span> info.4t5ng@gmail.com</span></i>
+                        <i class="fa fa-instagram"> <a href="http://instagram.com/4t5.ng">4T5.NG</a></i>
+            
+                    </div>
+            
+                    </div>
+                
+                </div>  
+                
+                <!-- Go Top BTN -->
+            <button class="goTop fas fa-arrow-up"></button>
+             
+            <div class="line"></div>
+            
+            <p class="end">2023 <i class="fa fa-copyright" > </i> All Right Reserved | 4T5 </p>
+            </section>
     
-    </div>  
-    
-    <!-- Go Top BTN -->
-<button class="goTop fas fa-arrow-up"></button>
 
-<div class="line"></div>
-
-<p class="end">2023 <i class="fa fa-copyright" > </i> All Right Reserved | 4T5 </p>
-</div>
-
-
-
-<script src="app.js"></script>
+            <script src="main.js"></script>
 </body>
 </html>
